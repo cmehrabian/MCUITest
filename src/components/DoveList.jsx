@@ -1,12 +1,22 @@
 import React from 'react';
+import { connect } from 'react-redux';
 import DoveEntry from './DoveEntry.jsx';
-import db from '../../db.json';
+import { Icon, Label, Menu, Table } from 'semantic-ui-react';
 
-const DoveList = () => (
-  <div>
-    Dove List
-    {db.doves.map(dove => <DoveEntry key={dove.id} dove={dove} /> )}
-  </div>
+const { Header, Body, Row, HeaderCell  } = Table;
+
+const DoveList = ({doves}) => (
+  <Table>
+    <Body>
+      {doves.map(dove => <DoveEntry key={dove.id} dove={dove} /> )}
+    </Body>
+  </Table>
 );
 
-export default DoveList;
+const mapStateToProps = (state) => {
+  return {
+    doves: state.doves
+  }
+}
+
+export default connect(mapStateToProps)(DoveList);
