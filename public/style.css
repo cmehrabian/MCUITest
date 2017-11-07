@@ -1,0 +1,9 @@
+.ui.menu {
+    border-radius: 0;
+}
+
+@media only screen and (min-width: 767px) {
+  .mobile-show{
+    display: none !important;
+  }
+}

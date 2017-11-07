@@ -1,10 +1,13 @@
 import React from 'react';
 import DoveList from './DoveList.jsx';
+import Search from './Search.jsx';
 import { Container } from 'semantic-ui-react';
 
-const Main = () => (
+
+const Main = ({ deleteDove, updateDove }) => (
   <Container>
-    <DoveList />
+    <Search />
+    <DoveList deleteDove={deleteDove} updateDove={updateDove} />
   </Container>
 );
 

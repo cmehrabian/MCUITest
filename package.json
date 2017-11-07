@@ -20,7 +20,7 @@
   },
   "scripts": {
     "start": "json-server --watch db.json",
-    "build": "babel src -d lib --copy-files",
+    "build": "webpack -d --watch",
     "toc": "markdown-toc -i README.md"
   },
   "devDependencies": {

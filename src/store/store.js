@@ -3,22 +3,19 @@ import thunk from 'redux-thunk';
 import { rootReducer } from './reducers';
 import { initialState } from './reducers';
 
-const preloadedState = window.__PRELOADED_STATE__ || {};
-
-const enhancers = [];
 const middleware = [thunk];
 
 const devToolsExtension = window.devToolsExtension;
 if (typeof devToolsExtension === 'function') {
-  enhancers.push(devToolsExtension());
+  middleware.push(devToolsExtension());
 }
 
-const composedEnhancers = compose(applyMiddleware(...middleware), ...enhancers);
+const enhancers = applyMiddleware(...middleware);
 
 const store = createStore(
   rootReducer,
   initialState,
-  composedEnhancers
+  enhancers
 );
 
 export default store;
