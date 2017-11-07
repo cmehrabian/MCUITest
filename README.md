@@ -44,21 +44,21 @@ http://localhost:3000/
 
 ## Directories and Components
 
-<pre><code><b><a style="color: black;" href="#">public</a></b> - public folder (index.html, css, db.json, bundle.js)
-<b><a style="color: black;" href="#">src</a></b> - components and redux folder
-<b><a href="#">index</a></b>
-  <a href="#"  style="color: black;"><b>components</b></a>
-  - <a href="#">App</a></a>
-   - <a href="#">Header</a>
-       - <a href="#">AddModal</a>
-             - <a href="#">AddForm</a>
-   - <a href="#">Main</a>
-       - <a href="#">Search</a>
-       - <a href="#">Dovelist</a>
-             - <a href="#">DoveEntry</a>
-  <a style="color: black;" href="#"><b>store</b></a>
-   - <a href="#">store</a>
-   - <a href="#">reducers</a>
+<pre><code><b><a style="color: black;" href="https://github.com/cmehrabian/MCUITest/tree/master/public">public</a></b> - public folder (index.html, css, db.json, bundle.js)
+<b><a style="color: black;" href="https://github.com/cmehrabian/MCUITest/tree/master/src">src</a></b> - components and redux folder
+<b><a href="https://github.com/cmehrabian/MCUITest/tree/master/index.jsx">index</a></b>
+  <a href="https://github.com/cmehrabian/MCUITest/tree/master/src/components"  style="color: black;"><b>components</b></a>
+  - <a href="https://github.com/cmehrabian/MCUITest/tree/master/src/components/App.jsx">App</a></a>
+   - <a href="https://github.com/cmehrabian/MCUITest/tree/master/src/components/Header.jsx">Header</a>
+       - <a href="https://github.com/cmehrabian/MCUITest/tree/master/src/components/AddModal.jsx">AddModal</a>
+             - <a href="https://github.com/cmehrabian/MCUITest/tree/master/src/components/AddForm.jsx">AddForm</a>
+   - <a href="https://github.com/cmehrabian/MCUITest/tree/master/src/components/Main.jsx">Main</a>
+       - <a href="https://github.com/cmehrabian/MCUITest/tree/master/src/components/Search.jsx">Search</a>
+       - <a href="https://github.com/cmehrabian/MCUITest/tree/master/src/components/Dovelist.jsx">Dovelist</a>
+             - <a href="https://github.com/cmehrabian/MCUITest/tree/master/src/components/DoveEntry">DoveEntry</a>
+  <a style="color: black;" href="https://github.com/cmehrabian/MCUITest/tree/master/src/store"><b>store</b></a>
+   - <a href="https://github.com/cmehrabian/MCUITest/tree/master/src/store/store.js">store</a>
+   - <a href="https://github.com/cmehrabian/MCUITest/tree/master/src/store/reducers">reducers</a>
 </code></pre>
 
 
