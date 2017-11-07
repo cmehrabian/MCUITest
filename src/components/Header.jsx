@@ -9,7 +9,7 @@ const Header = ({addDove, handleToggleForm}) => (
       <Menu.Item as='a' header href='/'>
         <Image style={{width: '75px'}} src='https://www.planet.com/assets/logos/logo.svg'/>
       </Menu.Item>
-      <Menu.Item as='a' href='https://github.com/'>
+      <Menu.Item as='a' href='https://github.com/MCUITest'>
         <Icon name='github'/>
       </Menu.Item>
       <Menu.Item position='right' onClick={handleToggleForm}>
